@@ -20,9 +20,18 @@
   };
 
 // gathering user input
-$(document).ready(function(){
-  let number1 = prompt("Enter First number:");
-  let number2 = prompt("Enter Second number:");
-   alert(add(number1, number2));
+// $(document).ready(function(){
+//   let number1 = prompt("Enter First number:");
+//   let number2 = prompt("Enter Second number:");
+//    alert(add(number1, number2));
 
+// });
+
+$(document).ready(function() {
+  $("form#add").submit(function(event) {
+    event.preventDefault();
+  let number1 = parseInt($("#add1").val());
+  let number2 = parseInt($("#add2").val());
+  alert(add(number1, number2));
+  });
 });
