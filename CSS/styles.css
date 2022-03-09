@@ -1,0 +1,10 @@
+*{
+    font-size: 4vh;
+    background:lightgrey;
+}
+#output{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8vh;
+}
