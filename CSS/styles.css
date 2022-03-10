@@ -1,5 +1,5 @@
 *{
-    font-size: 4vh;
+    font-size: 3vh;
     background:lightgrey;
 }
 #output{
@@ -7,4 +7,13 @@
     text-align: center;
     font-weight: bold;
     font-size: 8vh;
+    padding: 5%;
+    background-color: white;
+    
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
